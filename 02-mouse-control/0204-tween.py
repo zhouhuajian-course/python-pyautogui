@@ -30,17 +30,17 @@ def test_tween():
     # drag(0, 300, duration=2, tween=easeInBack)
     # drag(0, 300, duration=2, tween=easeOutBack)
     # drag(0, 300, duration=2, tween=easeInOutBack)
-    def custom_tween(n):
-        # print(n) # 0.0 <= n < 1.0
-        # return n
-        if n < 0.2:
-            # return -0.2
-            return 0.2
-        elif 0.2 <= n < 0.5:
-            return 0.5
-        else:
-            return n
-    move(0, 500, duration=2, tween=custom_tween)
+    # def custom_tween(n):
+    #     # print(n) # 0.0 <= n < 1.0
+    #     # return n
+    #     if n < 0.2:
+    #         # return -0.2
+    #         return 0.2
+    #     elif 0.2 <= n < 0.5:
+    #         return 0.5
+    #     else:
+    #         return n
+    # move(0, 500, duration=2, tween=custom_tween)
 
 
 test_tween()

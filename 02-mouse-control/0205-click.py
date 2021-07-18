@@ -41,7 +41,7 @@ def test_click():
     # 5. doubleClick() - 鼠标点击两次；
     # doubleClick()  # 比click()少1个参数，clicks固定为2 便捷函数
     # 6. tripleClick() - 鼠标点击三次。
-    tripleClick(interval=0.3)  # clicks固定为3 便捷函数
+    # tripleClick(interval=0.3)  # clicks固定为3 便捷函数
 
 
 test_click()
